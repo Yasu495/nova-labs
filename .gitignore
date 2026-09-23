@@ -1,0 +1,10 @@
+# 公開しない制作用ファイル（ファイル自体はフォルダに残す）
+/NOVA_CUBE_LP原稿.md
+/LP_*.png
+
+# OS・エディタが自動で作るファイル
+Thumbs.db
+desktop.ini
+.DS_Store
+.claude/
+.vscode/
