@@ -488,6 +488,17 @@ ul, ol { padding: 0; list-style: none; }
   pointer-events: none;
 }
 
+/* PR動画 */
+.hero-video { margin-top: clamp(64px, 9vw, 112px); }
+.hero-video .frame { aspect-ratio: 16 / 9; }
+.hero-video video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background: var(--bg-sub);
+}
+
 .tagline-en {
   font-family: var(--font-head);
   font-weight: 200;
@@ -1136,6 +1147,15 @@ ul, ol { padding: 0; list-style: none; }
   color: var(--text);
   letter-spacing: 0.12em;
 }
+
+.credit {
+  margin-top: 32px;
+  font-family: var(--font-head);
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  color: var(--text-sub);
+}
+.credit + .copyright { margin-top: 12px; }
 
 .copyright {
   margin-top: 32px;
